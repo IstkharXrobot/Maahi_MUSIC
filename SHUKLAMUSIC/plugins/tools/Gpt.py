@@ -22,7 +22,7 @@ async def chat_gpt(bot, message):
         if len(message.command) < 2:
             # If no question is asked, send an example message
             await message.reply_text(
-                "❍ ᴇxᴀᴍᴘʟᴇ:**\n\n/chatgpt ᴡʜᴏ ɪs ᴛʜᴇ ᴏᴡɴᴇʀ ᴏғ ˹ BADNAM ™˼?"
+                "❍ ᴇxᴀᴍᴘʟᴇ:**\n\n/chatgpt ᴡʜᴏ ɪs ᴛʜᴇ ᴏᴡɴᴇʀ ᴏғ ˹ ISTKHAR ™˼?"
             )
         else:
             # Extract the query from the user's message
@@ -68,7 +68,7 @@ async def chat_gpt(bot, message):
                     if "choices" in response_data and len(response_data["choices"]) > 0:
                         result = response_data["choices"][0]["message"]["content"]
                         await message.reply_text(
-                            f"{result} \n\nＡɴsᴡᴇʀᴇᴅ ʙʏ➛[˹🕊️⃝‌꯭꯭꯭꯭ٖٖٖٖ♥️꯭𝄄❘✹ꩌ꯭꯭𝗛꯭𝝰̶᪱𝗿꯭𝘀᪰𝗵꯭𝗶𝘁꯭✹ꩌ꯭❘꯭𝄄꯭♥️꯭˼](https://t.me/HARSHU_ABOUT)",
+                            f"{result} \n\nＡɴsᴡᴇʀᴇᴅ ʙʏ➛[˹⎯᪵፝֟፝֟⎯꯭𓆩꯭ ꯭𝐈 s꯭ ᴛ ꯭ᴋ ꯭ʜ ꯭𐓘꯭ ʀ꯭⎯꯭꯭‌꯭🥂꯭༎꯭ 𓆪](https://t.me/THUNDERDEVS)",
                             parse_mode=ParseMode.MARKDOWN
                         )
                     else:
